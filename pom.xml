@@ -68,6 +68,12 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-data-jpa</artifactId>
         </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.30</version>
+            <scope>provide</scope>
+        </dependency>
 
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -97,7 +103,7 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
-                    <jvmArguments>-Xdebug -Xrunjdwp:transport=dt_socket,server=y,suspend=n,address=5157</jvmArguments>
+                    <jvmArguments>-Xdebug -Xrunjdwp:transport=dt_socket,server=y,suspend=n,address=5197</jvmArguments>
                     <wait>500</wait>
                     <maxAttempts>240</maxAttempts>
                 </configuration>
